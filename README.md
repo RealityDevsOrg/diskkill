@@ -1,9 +1,16 @@
 # diskkill
 Disk Stresser
 
-# build:
+# "main.cpp" build:
 ```sh
 gcc main.cpp -o main -lstdc++ -static
 ./main [dir] [filesize]
 ```
+
+# "beta.cpp" build:
+```sh
+gcc beta.cpp -o beta -lstdc++ -static -pthread
+./main [dir] [filesize]
+```
+
 We are not responsible for any damages.
