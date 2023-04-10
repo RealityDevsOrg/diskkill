@@ -10,7 +10,7 @@ gcc main.cpp -o main -lstdc++ -static
 # "beta.cpp" build:
 ```sh
 gcc beta.cpp -o beta -lstdc++ -static -pthread
-./main [dir] [filesize]
+./beta [dir] [filesize]
 ```
 
 We are not responsible for any damages.
