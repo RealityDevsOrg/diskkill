@@ -67,6 +67,7 @@ int go(int argc, char *argv[])
 
 int main(int argc, char *argv[])
 {
+    std::cout << "DiskKill written by westhecool & mysterek1337. RealityDEVs is better." << std:endl;
     while (true)
     {
         go(argc, argv);
